@@ -10,10 +10,10 @@ function addAgeClicked () {
   // this function does area 
 
   // input
-  const length = parseFloat(document.getElementById("radius-of-sphere").value)
+  const radius = parseFloat(document.getElementById("radius-of-sphere").value)
 
   // process
-  const volume = (4 / 3) * 3.14 * radius * radius * radius
+  const volume = (4 / 3) * Math.PI * radius * radius * radius
 
   // output
   document.getElementById('volume').innerHTML = 'Volume is: ' + volume + " mm³"
