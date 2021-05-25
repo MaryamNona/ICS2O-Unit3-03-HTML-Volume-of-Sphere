@@ -16,5 +16,5 @@ function addAgeClicked () {
   const volume = (4 / 3) * Math.PI * radius * radius * radius
 
   // output
-  document.getElementById('volume').innerHTML = 'Volume is: ' + volume + " mm³"
+  document.getElementById('volume').innerHTML = 'Volume is: ' + volume + " cm³"
 }
